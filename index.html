@@ -1,58 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href=style.css rel="stylesheet" />
-<title>Number Game</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href=style.css rel="stylesheet" />
+  <title>Number Game</title>
 </head>
+
 <body>
- <section>
+  <section>
 
- <div class="sectionforscore">
-    <div class="inofrmation"><p>Select any item within 10sec</p></div>
-    <div class= "scorecard"  ></div><p>SCORE</p></div><div class ="scorevalue">0</div>
- </div>
-</section>
-<button class="restart">RESTART</button>
- <div class="elementSection">
- <div class = "button" id="element1"> </div>
-   <div class = "button" id="element2" ></div>
-   <div class ="button" id = "element3"> </div>
-   <div class ="button" id = "element4"> </div>
-   <div class="button"  id="element5"></div>
- <div class ="button" id="element6"></div>
- <div class ="button" id="element7"></div>
- <div class ="button" id="element8"></div>
- <div class ="button" id="element9"></div>
- <div class ="button" id="element10"></div>
- <div class ="button" id="element11"></div>
- <div class ="button" id="element12"></div>
- <div class ="button" id="element13"></div>
- <div class ="button" id="element14"></div>
- <div class ="button" id="element15"></div>
- <div class ="button" id="element16"></div>
- <div class ="button" id="element17"></div>
- <div class ="button" id="element18"></div>
- <div class ="button" id="element19"></div>
- <div class ="button" id="element20"></div>
- <div class ="button" id="element21"></div>
- <div class ="button" id="element22"></div>
- <div class ="button" id="element23"></div>
- <div class ="button" id="element24"></div>
- <div class ="button" id="element25"></div>
- <div class ="button" id="element26"></div>
- <div class ="button" id="element27"></div>
- <div class ="button" id="element28"></div>
- <div class ="button" id="element29"></div>
- <div class ="button" id="element30"></div>
-</div>
+    <div class="sectionforscore">
+      <div class="inofrmation">
+        <p id="timeCounter"></p>
+      </div>
+      <div class="scorecard"></div>
+      <p>SCORE</p>
+    </div>
+    <div class="scorevalue">0</div>
+    </div>
+  </section>
+  <button class="restart" hidden>RESTART</button>
+  <button id="startButton" onclick="startGame()">Start</button>
+  <div class="elementSection" id="elementView" hidden>
+    <div class="button" id="element1"> </div>
+    <div class="button" id="element2"></div>
+    <div class="button" id="element3"> </div>
+    <div class="button" id="element4"> </div>
+    <div class="button" id="element5"></div>
+    <div class="button" id="element6"></div>
+    <div class="button" id="element7"></div>
+    <div class="button" id="element8"></div>
+    <div class="button" id="element9"></div>
+    <div class="button" id="element10"></div>
+    <div class="button" id="element11"></div>
+    <div class="button" id="element12"></div>
+    <div class="button" id="element13"></div>
+    <div class="button" id="element14"></div>
+    <div class="button" id="element15"></div>
+    <div class="button" id="element16"></div>
+    <div class="button" id="element17"></div>
+    <div class="button" id="element18"></div>
+    <div class="button" id="element19"></div>
+    <div class="button" id="element20"></div>
+    <div class="button" id="element21"></div>
+    <div class="button" id="element22"></div>
+    <div class="button" id="element23"></div>
+    <div class="button" id="element24"></div>
+    <div class="button" id="element25"></div>
+    <div class="button" id="element26"></div>
+    <div class="button" id="element27"></div>
+    <div class="button" id="element28"></div>
+    <div class="button" id="element29"></div>
+    <div class="button" id="element30"></div>
+  </div>
 
-   
-   
 
-    <script src="script.js"></script>
+
+
+  <script src="script.js"></script>
 </body>
+
 </html>
