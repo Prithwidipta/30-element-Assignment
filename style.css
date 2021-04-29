@@ -5,7 +5,7 @@ section{
  
         color: rgb(0, 0, 0);
         position: fixed;
-        left: 1167px;
+        left: 1067px;
         top: 400px;
         background-color: white;
         width: 165px;
@@ -284,6 +284,6 @@ left: 1071px;
 
 .restart {
     position: fixed;
-    left: 1267px;
+    left: 1067px;
     top: 570px;
 }
